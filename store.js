@@ -1,4 +1,4 @@
-const { create } = window.Zustand
+const { create } = Zustand
 
 const useStore = create((set, get) => ({
   // 用户状态
